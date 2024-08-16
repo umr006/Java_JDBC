@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ex00/Chat/Chat.iml" filepath="$PROJECT_DIR$/ex00/Chat/Chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_JDBC.iml" filepath="$PROJECT_DIR$/Java_JDBC.iml" />
     </modules>
   </component>

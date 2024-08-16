@@ -2,13 +2,13 @@ package edu.school21.chat.Chat;
 
 import java.util.List;
 import java.util.Objects;
+import edu.school21.chat.Chat.Message;
 
 public class Chatroom {
     private Long id;
     private String name;
     private Long owner_id;
     private List<Message> messages;
-
     public Long getId() {
         return id;
     }

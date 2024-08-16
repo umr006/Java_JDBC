@@ -1,17 +1,18 @@
-package edu.school21.chat.Chat;
+package chat.Chat;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import edu.school21.chat.Chat.Chatroom;
 
 public class User {
     private Long id;
     private String name;
     private String passwd;
-    private List<ChatRoom> created_rooms;
-    private List<ChatRoom> socializeRooms;
+    private List<Chatroom> created_rooms;
+    private List<Chatroom> socializeRooms;
 
-    public User(Long id, String name, String passwd, List<ChatRoom> created_rooms, List<ChatRoom> socializeRooms) {
+    public User(Long id, String name, String passwd, List<Chatroom> created_rooms, List<Chatroom> socializeRooms) {
         this.id = id;
         this.name = name;
         this.passwd = passwd;
@@ -43,19 +44,19 @@ public class User {
         this.passwd = passwd;
     }
 
-    public List<ChatRoom> getCreated_rooms() {
+    public List<Chatroom> getCreated_rooms() {
         return created_rooms;
     }
 
-    public void setCreated_rooms(List<ChatRoom> created_rooms) {
+    public void setCreated_rooms(List<Chatroom> created_rooms) {
         this.created_rooms = created_rooms;
     }
 
-    public List<ChatRoom> getSocializeRooms() {
+    public List<Chatroom> getSocializeRooms() {
         return socializeRooms;
     }
 
-    public void setSocializeRooms(List<ChatRoom> socializeRooms) {
+    public void setSocializeRooms(List<Chatroom> socializeRooms) {
         this.socializeRooms = socializeRooms;
     }
 
