@@ -29,7 +29,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>edu.school21.chat.Main.Program</mainClass>
+                    <mainClass>edu.school21.chat.Chat.Program</mainClass>
                 </configuration>
             </plugin>
         </plugins>

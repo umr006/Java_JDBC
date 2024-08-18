@@ -1,4 +1,4 @@
-package chat.Chat;
+package edu.school21.chat.Chat;
 
 import java.util.ArrayList;
 import java.util.List;
