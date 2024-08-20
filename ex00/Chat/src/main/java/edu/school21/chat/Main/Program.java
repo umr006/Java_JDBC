@@ -23,7 +23,6 @@ public class Program {
                 System.out.println(resultSet.getString("message_text") + " ---- id ---- " + resultSet.getString("id"));
             }
             resultSet.close();
-
         } catch (SQLException e) {
             e.fillInStackTrace();
         }

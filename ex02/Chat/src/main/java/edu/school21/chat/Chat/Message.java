@@ -8,7 +8,7 @@ public class Message {
     private Long author_id;
     private Long room_id;
     private String message_text;
-    private String data_time;
+    private LocalDateTime data_time;
 
     public Message(Long id, Long author_id, Long room_id, String message_text, LocalDateTime data_time) {
         this.id = id;
@@ -50,11 +50,11 @@ public class Message {
         this.message_text = message_text;
     }
 
-    public String getData_time() {
+    public LocalDateTime getData_time() {
         return data_time;
     }
 
-    public void setData_time(String data_time) {
+    public void setData_time(LocalDateTime data_time) {
         this.data_time = data_time;
     }
 
