@@ -1,8 +1,8 @@
-/Users/new/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Chat/Chatroom.java
-/Users/new/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Chat/Message.java
-/Users/new/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Chat/User.java
-/Users/new/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Main/ConnectionDB.java
-/Users/new/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Main/GetDbProperties.java
-/Users/new/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Main/Program.java
-/Users/new/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Repository/MessagesRepository.java
-/Users/new/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Repository/MessagesRepositoryJdbcImpl.java
+/home/umr006/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Repository/MessagesRepository.java
+/home/umr006/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Repository/MessagesRepositoryJdbcImpl.java
+/home/umr006/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Chat/Chatroom.java
+/home/umr006/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Main/ConnectionDB.java
+/home/umr006/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Chat/User.java
+/home/umr006/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Chat/Message.java
+/home/umr006/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Main/Program.java
+/home/umr006/Java_JDBC/ex01/Chat/src/main/java/edu/school21/chat/Main/GetDbProperties.java

@@ -4,7 +4,6 @@ import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
 import javax.sql.DataSource;
-import java.sql.*;
 
 public class ConnectionDB {
     private static String db_url = GetDbProperties.getProperties("db.url");

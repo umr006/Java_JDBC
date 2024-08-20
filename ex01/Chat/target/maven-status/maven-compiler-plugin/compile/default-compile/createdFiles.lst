@@ -1,8 +1,8 @@
 edu/school21/chat/Chat/Message.class
 edu/school21/chat/Main/Program.class
 edu/school21/chat/Repository/MessagesRepository.class
-edu/school21/chat/Main/GetDbProperties.class
 edu/school21/chat/Main/ConnectionDB.class
+edu/school21/chat/Main/GetDbProperties.class
 edu/school21/chat/Repository/MessagesRepositoryJdbcImpl.class
 edu/school21/chat/Chat/User.class
 edu/school21/chat/Chat/Chatroom.class

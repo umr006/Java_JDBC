@@ -19,7 +19,9 @@ public class GetDbProperties {
     }
 
     public static void loadProperties() {
-        try (var is = new FileInputStream("/Users/new/Java_JDBC/ex00/Chat/src/main/resources/config.properties")) {
+        //mac
+        //var is = new FileInputStream("/Users/new/Java_JDBC/ex00/Chat/src/main/resources/config.properties")
+        try (var is = new FileInputStream("/home/umr006/Java_JDBC/ex01/Chat/src/main/resources/config.properties")) {
             properties.load(is);
         } catch (IOException e) {
             throw new RuntimeException(e);

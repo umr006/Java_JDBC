@@ -9,11 +9,14 @@ import edu.school21.chat.Repository.MessagesRepositoryJdbcImpl;
 
 public class Program {
 
-    public static void main(String[] args) throws SQLException {
-        MessagesRepositoryJdbcImpl mesRepCon = new MessagesRepositoryJdbcImpl(ConnectionDB.connectToDb());
-        long id = 2;
-
-        mesRepCon.findById(id);
+    public static void main(String[] args) {
+        try {
+            MessagesRepositoryJdbcImpl mesRepCon = new MessagesRepositoryJdbcImpl(ConnectionDB.connectToDb());
+            long id = 1;
+            mesRepCon.findById(id);
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
 
     }
 
