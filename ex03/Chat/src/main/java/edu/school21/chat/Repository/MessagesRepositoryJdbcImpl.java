@@ -89,6 +89,25 @@ public class MessagesRepositoryJdbcImpl implements MessagesRepository {
         message.setId(resultSet.getLong(1));
     }
 
+
+    public void updateMessage(Message message) {
+        //String query = "UPDATE s21_chat.message set message_author ? room_id ? message_text ? data_time ? where message_id = ?";
+        checkMessage(message);
+        String query = String.format("UPDATE s21_chat.message set message_author = %d, room_id = %d, message_text = '%s', date_time = '%s' where id = %d;", message.getAuthor_id(), message.getRoom_id(), message.getMessage_text(), message.getData_time(), message.getId());
+        System.out.println(query);
+        try (Statement checkMessageId = connection.createStatement(); PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+            ResultSet resultSet = checkMessageId.executeQuery("select id from s21_chat.message order by id desc limit 1");
+            resultSet.next();
+            if (resultSet.getLong("id") >= message.getId()) {
+                preparedStatement.executeQuery();
+            } else {
+                throw new NotSavedSubEntityException("Message with this id not found");
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
     public void checkMessage(Message message) {
         if (message.getAuthor_id() == null || message.getRoom_id() == null) {
             throw new NotSavedSubEntityException("Author_id or Room_id can't not be NULL");

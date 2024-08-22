@@ -8,9 +8,15 @@
       <sourceFolder url="file://$MODULE_DIR$/ex01/Chat/src/main" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/ex02/Chat/src/main" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/ex02/Chat/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ex03/Chat/src/main" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/ex04/Chat/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/ex01/Chat/src/main/java/edu" />
       <excludeFolder url="file://$MODULE_DIR$/ex01/Chat/src/main/java/edu/school21" />
       <excludeFolder url="file://$MODULE_DIR$/ex01/Chat/src/main/java/edu/school21/chat" />
+      <excludeFolder url="file://$MODULE_DIR$/ex03/Chat/src/main/java/edu" />
+      <excludeFolder url="file://$MODULE_DIR$/ex03/Chat/src/main/java/edu/school21" />
+      <excludeFolder url="file://$MODULE_DIR$/ex03/Chat/src/main/java/edu/school21/chat" />
+      <excludeFolder url="file://$MODULE_DIR$/ex04/Chat/src/main/java/edu" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

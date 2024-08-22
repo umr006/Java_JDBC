@@ -10,9 +10,7 @@ public class Program {
     public static void main(String[] args) {
         try {
             MessagesRepositoryJdbcImpl mesRepCon = new MessagesRepositoryJdbcImpl(ConnectionDB.connectToDb());
-            long id = 2;
-            Message mes1 = new Message(1L, 2L, 1L, "Hello! It is new message", LocalDateTime.now());
-            mesRepCon.saveMessage(mes1);
+            System.out.println(mesRepCon.findAll(2,2));
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
